@@ -1,0 +1,79 @@
+body{
+    width: 100vw;
+    font-family: "Roboto Slab", serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(playa-isla-coronado..jpg);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    width: 100%;
+    padding: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(78, 214, 210);
+    text-transform: capitalize;
+    border: 1px black;
+    text-decoration-line: unset;
+}
+.flotante{
+    position:fixed;
+    top: 20px;
+    right: 20px;
+    width: 150px;
+    z-index: 1000;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    padding: 10px;
+    list-style: none;
+}
+.pesca{
+    top: 50px;
+    right: 50px;
+    width: 150px;
+}
+.lobos{
+    top: 50px;
+    right: 50px;
+    width: 150px;
+}
+.pesca2{
+    top: 50px;
+    right: 50px;
+    width: 150px;
+}
+main{
+    width: 80%;
+    padding: 30px;
+}
+.main1{
+    border: 4px inset gray;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.main2{
+    border: 4px inset gray;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.main3{
+    border: 4px inset gray;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+article{
+    align-items: center;
+    justify-content: space-between;
+    display: inline;
+}
